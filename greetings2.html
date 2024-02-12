@@ -42,7 +42,7 @@ h1 {
     border-radius: 10px;
     background: #f9e9c3;
     width: 85vw;
-    color: #5a9bb2;
+    color: #f5c44f;
     display: inline-block;
     box-shadow: 2px 2px 1px 0px #5e280d;
 }
@@ -128,9 +128,9 @@ else{
 hrs = today.getHours();
 if (hrs < 12)
         greet = 'Good Morning Nathali ';
-    else if (hrs >= 12 && hrs <= 17)
+    else if (hrs >= 12 && hrs <= 13)
         greet = 'Good Afternoon Nathali ';
-    else if (hrs >= 17 && hrs <= 24)
+    else if (hrs >= 13 && hrs <= 17)
         greet = 'Good Evening Nathali ';
 // console.log(today.toLocaleTimeString());
 document.getElementById('greet').innerHTML = greet;
